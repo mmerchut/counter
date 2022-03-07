@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+.counter {
+  display: inline-block;
+  margin-top: 40vh;
+  font-size: 40px;
+  padding: 20px;
+}
+
+button {
+  background-color: rgb(214, 224, 223);
+  padding: 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 40px;
+  width: 120px;
+  transition: 0.2s;
+}
+
+.clear {
+  background-color: rgb(117, 115, 115);
+  margin: auto;
+  display: block;
+  width: 150px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.clear:hover {
+  background-color: rgb(161, 155, 155);
+  cursor: pointer;
+}
+.minus:hover {
+  background-color: rgb(223, 130, 130);
+  cursor: pointer;
+}
+.plus:hover {
+  background-color: rgb(90, 218, 139);
+  cursor: pointer;
+}
